@@ -10,6 +10,9 @@ var Examples = require('Examples');
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
+//App css
+require('style!css!applicationStyles');
+
 //if you are using IndexRoute dont use <Link..., but use <IndexLink..
 ReactDOM.render(
   <Router history={hashHistory}>
